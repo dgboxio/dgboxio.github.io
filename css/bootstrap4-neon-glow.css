@@ -6,6 +6,12 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+@font-face {
+	font-family: 'dgbox';
+	src: url('../font/lost_in_future_0.ttf');
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -43,9 +49,9 @@
           box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+   font-family: sans-serif;
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
@@ -58,12 +64,15 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ font-family: "dgfont", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #e4e2ff;
-  text-align: left;
+  font-weight: 800;
+  line-height: 2;
+/*
+ * color: #e4e2ff;
+  */
+ color: white;
+text-align: left;
   background-color: #0c0d16; }
 
 [tabindex="-1"]:focus {
@@ -8025,7 +8034,7 @@ body {
 .display-2,
 .display-3,
 .display-4 {
-  font-family: "Hack", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  font-family: "dgbox", "Hack", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
   .text-white .display-1, .display-1.text-white, .text-white
   .display-2,
   .display-2.text-white, .text-white
